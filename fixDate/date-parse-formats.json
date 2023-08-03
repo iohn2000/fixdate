@@ -1,0 +1,12 @@
+[
+	"yyyy-MM-dd HH_mm_ss",
+	"yyyy-M-d H_m_s",
+	"yyyy-MM-dd HH.mm.ss",
+	"yyyy-M-d H.m.s",
+	"yyyy-MM-dd HH_mm",
+	"yyyy-M-d H_m",
+	"yyyy-MM-dd HH.mm",
+	"yyyy-M-d H.m",
+	"yyyy-M-d",
+	"yyyy-MM-dd"
+]

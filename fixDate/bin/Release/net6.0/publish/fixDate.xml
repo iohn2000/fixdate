@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>fixDate</name>
+    </assembly>
+    <members>
+        <member name="T:fixDate.DateMatcher">
+            <inheritdoc />
+        </member>
+        <member name="M:fixDate.DateParsing.TryParseDateExact(fixDate.TheMatchResult,System.Collections.Generic.List{System.String},System.DateTime@)">
+            <summary>
+            a wrapper around datetime.tryparseexcat
+            </summary>
+            <param name="theMatchValue"></param>
+            <param name="parseFormats"></param>
+            <param name="fdate"></param>
+            <returns></returns>
+        </member>
+        <member name="T:fixDate.Executor">
+            <summary>
+            class a starter class
+            </summary>
+        </member>
+        <member name="T:fixDate.interfaces.IDateMatch">
+            <summary>
+            tries to find the last date pattern in a string and returns only the date/time part
+            </summary>
+        </member>
+        <member name="M:haha.Program.Main(System.Boolean,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="forceUpdate">update file date even if it is already correct</param>
+            <param name="relStartPath">relative path where to find documents to check, default is current path</param>
+        </member>
+    </members>
+</doc>

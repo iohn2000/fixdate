@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>fixDate</name>
+    </assembly>
+    <members>
+        <member name="T:fixDate.DateMatcher">
+            <inheritdoc />
+        </member>
+        <member name="M:fixDate.DateMatcher.FindDateFormatMatch(System.String,System.Collections.Generic.SortedList{System.Int32,System.String})">
+            <inheritdoc />
+        </member>
+        <member name="M:fixDate.DateMatcher.TryCleaningUpFilename(System.String)">
+            <inheritdoc />
+        </member>
+        <member name="M:fixDate.DateParsing.TryParseDateExact(fixDate.TheMatchResult,System.Collections.Generic.List{System.String},System.DateTime@)">
+            <summary>
+            a wrapper around datetime.tryparseexcat
+            </summary>
+            <param name="theMatchValue"></param>
+            <param name="parseFormats"></param>
+            <param name="fdate"></param>
+            <returns></returns>
+        </member>
+        <member name="T:fixDate.Executor">
+            <summary>
+            class a starter class
+            </summary>
+        </member>
+        <member name="M:fixDate.interfaces.IDateMatch.FindDateFormatMatch(System.String,System.Collections.Generic.SortedList{System.Int32,System.String})">
+            <summary>
+            tries to find the last date pattern in a string and returns only the date/time part
+            </summary>
+            <param name="fileName"></param>
+            <param name="patterns">list of patterns to try to match file name against, the order ist inmportant</param>
+            <returns></returns>
+        </member>
+        <member name="M:fixDate.interfaces.IDateMatch.TryCleaningUpFilename(System.String)">
+            <summary>
+            try to clean away characters the are not needed but stop date matching
+            </summary>
+            <param name="originalName"></param>
+            <returns></returns>
+        </member>
+        <member name="M:haha.Program.Main(System.Boolean,System.String)">
+            <summary>
+            
+            </summary>
+            <param name="f">force update file date even if it is already correct</param>
+            <param name="p">relative path where to find documents to check, default is current path</param>
+        </member>
+    </members>
+</doc>

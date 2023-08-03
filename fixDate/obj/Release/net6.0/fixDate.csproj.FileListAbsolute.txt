@@ -1,0 +1,100 @@
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\fixDate.exe
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\fixDate.deps.json
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\fixDate.runtimeconfig.json
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\fixDate.dll
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\fixDate.pdb
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\obj\Release\net6.0\fixDate.csproj.AssemblyReference.cache
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\obj\Release\net6.0\fixDate.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\obj\Release\net6.0\fixDate.AssemblyInfoInputs.cache
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\obj\Release\net6.0\fixDate.AssemblyInfo.cs
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\obj\Release\net6.0\fixDate.csproj.CoreCompileInputs.cache
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\obj\Release\net6.0\fixDate.dll
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\obj\Release\net6.0\refint\fixDate.dll
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\obj\Release\net6.0\fixDate.pdb
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\obj\Release\net6.0\fixDate.genruntimeconfig.cache
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\obj\Release\net6.0\ref\fixDate.dll
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\obj\Release\net6.0\fixDate.csproj.CopyComplete
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\fixDate.xml
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\System.CommandLine.dll
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\System.CommandLine.DragonFruit.dll
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\System.CommandLine.NamingConventionBinder.dll
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\System.CommandLine.Rendering.dll
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\cs\System.CommandLine.resources.dll
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\de\System.CommandLine.resources.dll
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\es\System.CommandLine.resources.dll
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\fr\System.CommandLine.resources.dll
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\it\System.CommandLine.resources.dll
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\ja\System.CommandLine.resources.dll
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\ko\System.CommandLine.resources.dll
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\pl\System.CommandLine.resources.dll
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\pt-BR\System.CommandLine.resources.dll
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\ru\System.CommandLine.resources.dll
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\tr\System.CommandLine.resources.dll
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\zh-Hans\System.CommandLine.resources.dll
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\zh-Hant\System.CommandLine.resources.dll
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\obj\Release\net6.0\fixDate.xml
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\testdata\Liam--2021-07-03 14.40.jpg
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\testdata\Liam--2021-10-15 20.20.21.jpg
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\testdata\-2021-06-23 07.jpg
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\testdata\-2021-07-02 10.jpg
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\testdata\-2022-4-19 16.38_1.jpg
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\testdata\date-only-leading-zeros-2020-04-14.jpg
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\testdata\date-only-no-leading-zeors-2020-1-6.pdf
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\testdata\DateTime-no-seconds-leading-zeros-2020-09-07 08_44.jpg
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\testdata\fixModDate.exe
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\testdata\Kiera--2022-2-6 3_1.jpg
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\testdata\Kiera--2022-2-6 4_1.jpg
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\testdata\Kiera--2022-2-6 5_1.jpg
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\testdata\kiera-2021-08-17 10.jpg
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\testdata\Kiera-totoro-2022-4-24 14.02.jpg
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\testdata\Kiera-totoro2-2022-4-24 14.02.jpg
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\testdata\Liam--2021-03-24 07.19_2.jpg
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\testdata\Liam--2021-03-24 07.19_3.jpg
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\testdata\Liam--2021-03-24 07.jpg
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\testdata\Liam--2021-07-02 21.41_2.jpg
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\testdata\Liam--2021-07-03 14.40_1.jpg
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\testdata\Liam--2021-07-03 14.jpg
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\testdata\Liam--2021-10-15 20.19_1.jpg
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\testdata\Liam--2021-10-15 20.20.jpg
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\testdata\Liam--2021-10-15 20.21_1.jpg
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\testdata\Liam--2021-10-15 20.jpg
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\testdata\Liam--2021-11-08 06.59.jpg
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\testdata\Liam--2021-11-08 06.59_1.jpg
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\testdata\Liam--2021-11-08 06.jpg
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\testdata\Liam--2021-11-08 07.jpg
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\testdata\Liam--2022-2-23 4_1.jpg
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\testdata\Liam--2022-2-23.jpg
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\testdata\Liam--2022-2-24_1.jpg
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\testdata\Liam--2022-2-6 2_2.jpg
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\testdata\Liam--2022-2-6 2_3.jpg
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\testdata\Liam--2022-2-6 6_1.jpg
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\testdata\Liam--2022-2-6 7_1.jpg
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\testdata\Liam--2022-2-6 8_1.jpg
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\testdata\Liam--2022-2-6.jpg
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\testdata\Liam--2022-2.jpg
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\testdata\Liam--2022-3-3.jpg
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\testdata\Liam--2022-3.jpg
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\testdata\Liam--2022-4-19 16.37_1.jpg
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\testdata\Liam--2022-4-4 07.20 2_1.jpg
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\testdata\Liam--2022-4-4 07.20_1.jpg
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\testdata\Liam--2022-4-4 07.21 2_1.jpg
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\testdata\Liam--2022-4-4 07.21_1.jpg
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\testdata\Liam--2022-4-4 07.22 2_1.jpg
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\testdata\Liam--2022-4-4 07.22_1.jpg
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\testdata\Liam--2022-4-5 16.49_1.jpg
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\testdata\liam-2021-08-17 10.jpg
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\testdata\Liam-2022-04-04 07.19.00.jpg
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\testdata\Liam-pic-colorful-spacerabbit-2022-03-04.jpg
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\testdata\Liam-pic-face-2022-2-23.jpg
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\testdata\Liam-pic-family-portrait-2022-02-23.jpg
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\testdata\Liam-planto-lifo-2022-4-21.jpg
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\testdata\Liam-totoro1-2022-4-24.jpg
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\testdata\Liam-totoro2-2022-4-24.jpg
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\testdata\liam21-08-17 10.jpg
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\testdata\TEST_dateOnly-2019-05-12.test
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\testdata\TEST_with_time-2016-01-13 17_23.test
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\testdata\TEST_wrong _date_dateOnly-2019-13-33.test
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\testdata\TEST_wrong-format-with_time-2016-01.test
+C:\Users\fleckj\OneDrive\dev\fixDate\fixDate\bin\Release\net6.0\testdata\pic-2021-07-02 21.22.21_1.jpg

@@ -1,0 +1,88 @@
+C:\Users\fleckj\OneDrive\tmp\transfer\fixDate.exe
+C:\Users\fleckj\OneDrive\tmp\transfer\testdata\-2021-06-23 07.jpg
+C:\Users\fleckj\OneDrive\tmp\transfer\testdata\-2021-07-02 10.jpg
+C:\Users\fleckj\OneDrive\tmp\transfer\testdata\-2022-4-19 16.38_1.jpg
+C:\Users\fleckj\OneDrive\tmp\transfer\testdata\date-only-leading-zeros-2020-04-14.jpg
+C:\Users\fleckj\OneDrive\tmp\transfer\testdata\date-only-no-leading-zeors-2020-1-6.pdf
+C:\Users\fleckj\OneDrive\tmp\transfer\testdata\DateTime-no-seconds-leading-zeros-2020-09-07 08_44.jpg
+C:\Users\fleckj\OneDrive\tmp\transfer\testdata\fixModDate.exe
+C:\Users\fleckj\OneDrive\tmp\transfer\testdata\Kiera--2022-2-6 3_1.jpg
+C:\Users\fleckj\OneDrive\tmp\transfer\testdata\Kiera--2022-2-6 4_1.jpg
+C:\Users\fleckj\OneDrive\tmp\transfer\testdata\Kiera--2022-2-6 5_1.jpg
+C:\Users\fleckj\OneDrive\tmp\transfer\testdata\kiera-2021-08-17 10.jpg
+C:\Users\fleckj\OneDrive\tmp\transfer\testdata\Kiera-totoro-2022-4-24 14.02.jpg
+C:\Users\fleckj\OneDrive\tmp\transfer\testdata\Kiera-totoro2-2022-4-24 14.02.jpg
+C:\Users\fleckj\OneDrive\tmp\transfer\testdata\Liam--2021-03-24 07.19_2.jpg
+C:\Users\fleckj\OneDrive\tmp\transfer\testdata\Liam--2021-03-24 07.19_3.jpg
+C:\Users\fleckj\OneDrive\tmp\transfer\testdata\Liam--2021-03-24 07.jpg
+C:\Users\fleckj\OneDrive\tmp\transfer\testdata\Liam--2021-07-02 21.41_2.jpg
+C:\Users\fleckj\OneDrive\tmp\transfer\testdata\Liam--2021-07-03 14.40.jpg
+C:\Users\fleckj\OneDrive\tmp\transfer\testdata\Liam--2021-07-03 14.40_1.jpg
+C:\Users\fleckj\OneDrive\tmp\transfer\testdata\Liam--2021-07-03 14.jpg
+C:\Users\fleckj\OneDrive\tmp\transfer\testdata\Liam--2021-10-15 20.19_1.jpg
+C:\Users\fleckj\OneDrive\tmp\transfer\testdata\Liam--2021-10-15 20.20.21.jpg
+C:\Users\fleckj\OneDrive\tmp\transfer\testdata\Liam--2021-10-15 20.20.jpg
+C:\Users\fleckj\OneDrive\tmp\transfer\testdata\Liam--2021-10-15 20.21_1.jpg
+C:\Users\fleckj\OneDrive\tmp\transfer\testdata\Liam--2021-10-15 20.jpg
+C:\Users\fleckj\OneDrive\tmp\transfer\testdata\Liam--2021-11-08 06.59.jpg
+C:\Users\fleckj\OneDrive\tmp\transfer\testdata\Liam--2021-11-08 06.59_1.jpg
+C:\Users\fleckj\OneDrive\tmp\transfer\testdata\Liam--2021-11-08 06.jpg
+C:\Users\fleckj\OneDrive\tmp\transfer\testdata\Liam--2021-11-08 07.jpg
+C:\Users\fleckj\OneDrive\tmp\transfer\testdata\Liam--2022-2-23 4_1.jpg
+C:\Users\fleckj\OneDrive\tmp\transfer\testdata\Liam--2022-2-23.jpg
+C:\Users\fleckj\OneDrive\tmp\transfer\testdata\Liam--2022-2-24_1.jpg
+C:\Users\fleckj\OneDrive\tmp\transfer\testdata\Liam--2022-2-6 2_2.jpg
+C:\Users\fleckj\OneDrive\tmp\transfer\testdata\Liam--2022-2-6 2_3.jpg
+C:\Users\fleckj\OneDrive\tmp\transfer\testdata\Liam--2022-2-6 6_1.jpg
+C:\Users\fleckj\OneDrive\tmp\transfer\testdata\Liam--2022-2-6 7_1.jpg
+C:\Users\fleckj\OneDrive\tmp\transfer\testdata\Liam--2022-2-6 8_1.jpg
+C:\Users\fleckj\OneDrive\tmp\transfer\testdata\Liam--2022-2-6.jpg
+C:\Users\fleckj\OneDrive\tmp\transfer\testdata\Liam--2022-2.jpg
+C:\Users\fleckj\OneDrive\tmp\transfer\testdata\Liam--2022-3-3.jpg
+C:\Users\fleckj\OneDrive\tmp\transfer\testdata\Liam--2022-3.jpg
+C:\Users\fleckj\OneDrive\tmp\transfer\testdata\Liam--2022-4-19 16.37_1.jpg
+C:\Users\fleckj\OneDrive\tmp\transfer\testdata\Liam--2022-4-4 07.20 2_1.jpg
+C:\Users\fleckj\OneDrive\tmp\transfer\testdata\Liam--2022-4-4 07.20_1.jpg
+C:\Users\fleckj\OneDrive\tmp\transfer\testdata\Liam--2022-4-4 07.21 2_1.jpg
+C:\Users\fleckj\OneDrive\tmp\transfer\testdata\Liam--2022-4-4 07.21_1.jpg
+C:\Users\fleckj\OneDrive\tmp\transfer\testdata\Liam--2022-4-4 07.22 2_1.jpg
+C:\Users\fleckj\OneDrive\tmp\transfer\testdata\Liam--2022-4-4 07.22_1.jpg
+C:\Users\fleckj\OneDrive\tmp\transfer\testdata\Liam--2022-4-5 16.49_1.jpg
+C:\Users\fleckj\OneDrive\tmp\transfer\testdata\liam-2021-08-17 10.jpg
+C:\Users\fleckj\OneDrive\tmp\transfer\testdata\Liam-2022-04-04 07.19.00.jpg
+C:\Users\fleckj\OneDrive\tmp\transfer\testdata\Liam-pic-colorful-spacerabbit-2022-03-04.jpg
+C:\Users\fleckj\OneDrive\tmp\transfer\testdata\Liam-pic-face-2022-2-23.jpg
+C:\Users\fleckj\OneDrive\tmp\transfer\testdata\Liam-pic-family-portrait-2022-02-23.jpg
+C:\Users\fleckj\OneDrive\tmp\transfer\testdata\Liam-planto-lifo-2022-4-21.jpg
+C:\Users\fleckj\OneDrive\tmp\transfer\testdata\Liam-totoro1-2022-4-24.jpg
+C:\Users\fleckj\OneDrive\tmp\transfer\testdata\Liam-totoro2-2022-4-24.jpg
+C:\Users\fleckj\OneDrive\tmp\transfer\testdata\liam21-08-17 10.jpg
+C:\Users\fleckj\OneDrive\tmp\transfer\testdata\pic-2021-07-02 21.22.21_1.jpg
+C:\Users\fleckj\OneDrive\tmp\transfer\testdata\TEST_dateOnly-2019-05-12.test
+C:\Users\fleckj\OneDrive\tmp\transfer\testdata\TEST_with_time-2016-01-13 17_23.test
+C:\Users\fleckj\OneDrive\tmp\transfer\testdata\TEST_wrong _date_dateOnly-2019-13-33.test
+C:\Users\fleckj\OneDrive\tmp\transfer\testdata\TEST_wrong-format-with_time-2016-01.test
+C:\Users\fleckj\OneDrive\tmp\transfer\fixDate.dll
+C:\Users\fleckj\OneDrive\tmp\transfer\fixDate.deps.json
+C:\Users\fleckj\OneDrive\tmp\transfer\fixDate.runtimeconfig.json
+C:\Users\fleckj\OneDrive\tmp\transfer\fixDate.pdb
+C:\Users\fleckj\OneDrive\tmp\transfer\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\fleckj\OneDrive\tmp\transfer\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\fleckj\OneDrive\tmp\transfer\System.CommandLine.dll
+C:\Users\fleckj\OneDrive\tmp\transfer\System.CommandLine.DragonFruit.dll
+C:\Users\fleckj\OneDrive\tmp\transfer\System.CommandLine.NamingConventionBinder.dll
+C:\Users\fleckj\OneDrive\tmp\transfer\System.CommandLine.Rendering.dll
+C:\Users\fleckj\OneDrive\tmp\transfer\cs\System.CommandLine.resources.dll
+C:\Users\fleckj\OneDrive\tmp\transfer\de\System.CommandLine.resources.dll
+C:\Users\fleckj\OneDrive\tmp\transfer\es\System.CommandLine.resources.dll
+C:\Users\fleckj\OneDrive\tmp\transfer\fr\System.CommandLine.resources.dll
+C:\Users\fleckj\OneDrive\tmp\transfer\it\System.CommandLine.resources.dll
+C:\Users\fleckj\OneDrive\tmp\transfer\ja\System.CommandLine.resources.dll
+C:\Users\fleckj\OneDrive\tmp\transfer\ko\System.CommandLine.resources.dll
+C:\Users\fleckj\OneDrive\tmp\transfer\pl\System.CommandLine.resources.dll
+C:\Users\fleckj\OneDrive\tmp\transfer\pt-BR\System.CommandLine.resources.dll
+C:\Users\fleckj\OneDrive\tmp\transfer\ru\System.CommandLine.resources.dll
+C:\Users\fleckj\OneDrive\tmp\transfer\tr\System.CommandLine.resources.dll
+C:\Users\fleckj\OneDrive\tmp\transfer\zh-Hans\System.CommandLine.resources.dll
+C:\Users\fleckj\OneDrive\tmp\transfer\zh-Hant\System.CommandLine.resources.dll
+C:\Users\fleckj\OneDrive\tmp\transfer\fixDate.xml
