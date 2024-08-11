@@ -5,14 +5,13 @@ using System.Text;
 using System.Threading.Tasks;
 using fixDate.interfaces;
 
-namespace fixDate
+namespace fixDate;
+
+public class FileNameReader : IFileNameReader
 {
-    public class FileNameReader : IFileNameReader
+    public string[] GetAllFileNames(string basePath)
     {
-        public string[] GetAllFileNames(string basePath)
-        {
-            EnumerationOptions o = new EnumerationOptions { MatchCasing = MatchCasing.CaseInsensitive, RecurseSubdirectories = true };
-            return Directory.GetFiles(Path.Combine(basePath, ""), "*.*", o);
-        }
+        EnumerationOptions o = new EnumerationOptions { MatchCasing = MatchCasing.CaseInsensitive, RecurseSubdirectories = true };
+        return Directory.GetFiles(Path.Combine(basePath, ""), "*.*", o);
     }
 }

@@ -1,7 +1,6 @@
-﻿namespace fixDate.interfaces
+﻿namespace fixDate.interfaces;
+
+public interface IFixDates
 {
-    public interface IFixDates
-    {
-        List<TheReportLine> LosGehts(bool forceUpdate, string relativStartPath);
-    }
+    List<TheReportLine> LosGehts(bool forceUpdate, string relativStartPath);
 }

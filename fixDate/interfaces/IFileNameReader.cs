@@ -1,7 +1,6 @@
-﻿namespace fixDate.interfaces
+﻿namespace fixDate.interfaces;
+
+public interface IFileNameReader
 {
-    public interface IFileNameReader
-    {
-        string[] GetAllFileNames(string basePath);
-    }
+    string[] GetAllFileNames(string basePath);
 }

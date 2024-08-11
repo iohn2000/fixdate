@@ -4,11 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace fixDate
+namespace fixDate;
+
+public class TheReportLine
 {
-    public class TheReportLine
-    {
-        public FStatus FileStatus { get; set; }
-        public string LogLine { get; set; }
-    }
+    public FStatus FileStatus { get; set; }
+    public string LogLine { get; set; }
 }
