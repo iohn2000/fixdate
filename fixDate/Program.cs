@@ -23,10 +23,11 @@ internal class Program
     {
         ServiceCollection services = new ServiceCollection();
         services.AddSingleton<IFixDates, FixDates>();
-        services.AddSingleton<IFileNameReader, FileNameReader>();
+        services.AddSingleton<IFileListFilter, FileListFilter>();
         services.AddSingleton<IConfigurationReader, ConfigurationReaderHardCoded>();
         services.AddSingleton<IDateMatch, DateMatcher>();
         services.AddSingleton<IDateParsing, DateParsing>();
+        services.AddSingleton<IFileNameProvider, FileNameProvider>();
         try
         {
             Executor? executerService =services.AddSingleton<Executor, Executor>()
