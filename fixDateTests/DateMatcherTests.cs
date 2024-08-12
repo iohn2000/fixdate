@@ -77,7 +77,7 @@ public class DateMatcherTests
         IConfigurationReader cfgReader = new ConfigurationReaderHardCoded();
         IDateMatch sut = new DateMatcher();
 
-        TheMatchResult findDateFormatMatch = sut.FindDateFormatMatch(fileName, cfgReader.GetMatchingPatterns());
+        TheMatchResult findDateFormatMatch = sut.FindDateFormatMatch(fileName, cfgReader.GetDateTimeMatchingPatterns());
         Assert.IsTrue(findDateFormatMatch.Success);
         Assert.AreEqual(result, findDateFormatMatch.TheValue);
     }

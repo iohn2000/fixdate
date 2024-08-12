@@ -6,4 +6,6 @@ using System.Threading.Tasks;
 
 namespace fixDate;
 
-public enum FStatus { Changed, Unchanged, Problem }
+public enum FStatus { Changed, Unchanged, Problem,
+    Excluded
+}

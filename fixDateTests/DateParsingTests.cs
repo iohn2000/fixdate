@@ -32,7 +32,7 @@ public class DateParsingTests
         
         TheMatchResult result = new TheMatchResult {Success = true, TheValue = extractedDate};
         DateTime fdate;
-        sut.TryParseDateExact(result, cfgReader.GetParsingFormats().Values.ToList(), out fdate);
+        sut.TryParseDateExact(result, cfgReader.GetDateTimeParsingFormats().Values.ToList(), out fdate);
         
         Assert.AreEqual(s,fdate.Second);
         Assert.AreEqual(m,fdate.Minute);

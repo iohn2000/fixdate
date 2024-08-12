@@ -3,6 +3,7 @@ namespace fixDate.interfaces;
 
 public interface IConfigurationReader
 {
-    SortedList<int,string> GetMatchingPatterns(string basePath = @".\");
-    SortedList<int,string> GetParsingFormats(string basePath = @"\,");
+    SortedList<int,string> GetDateTimeMatchingPatterns();
+    SortedList<int,string> GetDateTimeParsingFormats();
+    List<string> GetExcludedFoldersPatterns();
 }

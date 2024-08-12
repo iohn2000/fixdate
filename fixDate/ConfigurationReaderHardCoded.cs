@@ -10,7 +10,7 @@ namespace fixDate;
 
 public class ConfigurationReaderHardCoded : IConfigurationReader
 {
-    public SortedList<int, string> GetParsingFormats(string basePath)
+    public SortedList<int, string> GetDateTimeParsingFormats()
     {
         return new SortedList<int, string>
         {
@@ -23,13 +23,21 @@ public class ConfigurationReaderHardCoded : IConfigurationReader
         };
     }
 
-    public SortedList<int, string> GetMatchingPatterns(string basePath)
+    public SortedList<int, string> GetDateTimeMatchingPatterns()
     {
         return new SortedList<int, string>
         {
             {1, @"\d{4}-\d{1,2}-\d{1,2} \d{1,2}[_\.]\d{1,2}[_\.]\d{1,2}"},
             {2, @"\d{4}-\d{1,2}-\d{1,2} \d{1,2}[_\.]\d{1,2}"},
             {3, @"\d{4}-\d{1,2}-\d{1,2}"}
+        };
+    }
+
+    public List<string> GetExcludedFoldersPatterns()
+    {
+        return new List<string>
+        {
+            ""
         };
     }
 }
