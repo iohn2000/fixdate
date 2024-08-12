@@ -1,6 +1,8 @@
-﻿namespace fixDate.interfaces;
+﻿using fixDate.Models;
+
+namespace fixDate.interfaces;
 
 public interface IFileListFilter
 {
-    List<string> GetAllFileNames(string basePath);
+    List<FileNameItem> GetAllFileNames(string basePath);
 }

@@ -1,4 +1,5 @@
 ﻿using fixDate.interfaces;
+using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace fixDate;
 
@@ -16,9 +17,19 @@ public class FixDates(IFileListFilter fileListFilter, IConfigurationReader cfgRe
 
         var listOfFiles = fileListFilter.GetAllFileNames(relativeStartPath).ToList();
           
-        foreach (string theFile in listOfFiles)
+        foreach (var theFileItem in listOfFiles)
         {
-            CheckFileDateAndFix(forceUpdate, theFile, dateFormats, parseFormats, theReport);
+            if (theFileItem != null && theFileItem.IsIncluded) 
+            {
+                CheckFileDateAndFix(forceUpdate, theFileItem.FileName, dateFormats, parseFormats, theReport);
+            }
+            else
+            {
+                theReport.Add(new TheReportLine
+                { 
+                    FileStatus = FStatus.Excluded, LogLine = $"{FStatus.Excluded}: {theFileItem.FileName} is excluded."
+                });
+            }
         }
 
         return theReport;

@@ -37,7 +37,6 @@ public class ConfigurationReaderHardCoded : IConfigurationReader
     {
         return new List<string>
         {
-            "",
             ""
         };
     }

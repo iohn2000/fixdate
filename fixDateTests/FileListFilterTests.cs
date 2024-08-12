@@ -23,21 +23,25 @@ namespace fixDateTests
             A.CallTo(() => fakeFileNameProvider.GetFileNames(A<string>.Ignored)).Returns(fakeListFileNames);
             A.CallTo(() => fakeConfigReader.GetExcludedFoldersPatterns()).Returns(new List<string>
             {
-                "regex1",
-                "regex2"
+                "sub2",
+                "sub3",
             });
 
             IFileListFilter sut = new FileListFilter(fakeFileNameProvider, fakeConfigReader);
             var filteredFileNames = sut.GetAllFileNames("");
-            filteredFileNames.Should().HaveCount(3);
+            filteredFileNames.Where(w=>w.IsIncluded).Should().HaveCount(4);
         }
 
         static IEnumerable<List<string>> fakeFileNames
         {
             get
             {
-                yield return new List<string> { "hansi.txt", "sepp.txt", "jakob.txt" };
-                yield return new List<string> { "hansi2.txt", "sepp2.txt", "jakob2.txt" };
+                yield return new List<string> 
+                    { 
+                        "hansi.txt", "sub1/sepp_1.txt", "sub2/jakob_2.txt", "sub3/asdf_3.txt",
+                        "sub2_in_name.txt", "sub1/sub4/sub3/auch_excluded.txt",
+                        "sub1/sub2.txt"
+                    };
             }
         }
     }

@@ -1,4 +1,5 @@
 ﻿using fixDate.interfaces;
+using fixDate.Models;
 using System.Text.RegularExpressions;
 
 namespace fixDate;
@@ -14,17 +15,24 @@ public class FileListFilter : IFileListFilter
         this.configReader = configReader;
     }
 
-    public List<string> GetAllFileNames(string basePath)
+    public List<FileNameItem> GetAllFileNames(string basePath)
     {
-        var excludedFolders = configReader.GetExcludedFoldersPatterns();
+        var regex = configReader.GetExcludedFoldersPatterns()
+            .Where(w=>!string.IsNullOrWhiteSpace(w))
+            .Select(p=>new Regex(p,RegexOptions.IgnoreCase)).ToList();
+
         var unfilteredFiles = fileNameProvider.GetFileNames(basePath);
-        var filteredFiles = unfilteredFiles.Where(w=> 
-        {
-            var pathOnly = Path.GetDirectoryName(Path.GetFullPath(w.TrimEnd(Path.DirectorySeparatorChar, Path.AltDirectorySeparatorChar)));
-            var inPattern = excludedFolders.Any(a=>!new Regex(a, RegexOptions.IgnoreCase).IsMatch(pathOnly));
-            if (inPattern) return false;
-            return true;
-        });
-        return filteredFiles.ToList();
+
+        var filteredFiles = unfilteredFiles.Select(s=>new FileNameItem
+        { 
+            FileName = s,
+            IsIncluded = !regex.Any(a =>
+            {
+                string? cleanPath = Path.GetDirectoryName(s.TrimEnd(Path.DirectorySeparatorChar, Path.AltDirectorySeparatorChar));
+                return a.IsMatch(cleanPath);
+            })
+        }).ToList();
+
+        return filteredFiles;
      }
 }
