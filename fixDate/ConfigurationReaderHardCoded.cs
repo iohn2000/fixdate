@@ -37,7 +37,9 @@ public class ConfigurationReaderHardCoded : IConfigurationReader
     {
         return new List<string>
         {
-            ""
+            "ScannedDocsTheYears",
+            "pdf-tool",
+            "fixDate"
         };
     }
 }
