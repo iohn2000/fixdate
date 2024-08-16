@@ -1,4 +1,6 @@
-﻿namespace fixDate.interfaces;
+﻿using fixDate.Models;
+
+namespace fixDate.interfaces;
 
 public interface IDateParsing
 {
