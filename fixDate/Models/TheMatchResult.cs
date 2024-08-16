@@ -1,4 +1,4 @@
-﻿namespace fixDate;
+﻿namespace fixDate.Models;
 
 public class TheMatchResult
 {

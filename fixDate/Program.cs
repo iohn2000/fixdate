@@ -2,14 +2,6 @@
 using fixDate.interfaces;
 using Microsoft.Extensions.DependencyInjection;
 
-
-/*
- BUG : 
-Changed: .\2022\lzk-2022-11-28\WhatsApp Image 2022-11-25 at 16.38.30.jpeg date changed to:2022-11-25 00:00:00Z.
-Changed: .\2022\lzk-2022-11-28\WhatsApp Image 2022-11-25 at 16.38.41.jpeg date changed to:2022-11-25 00:00:00Z.
-Changed: .\2022\lzk-2022-11-28\WhatsApp Image 2022-11-25 at 16.38.48.jpeg date changed to:2022-11-25 00:00:00Z.
- */
-
 namespace haha; // Note: actual namespace depends on the project name.
 
 internal class Program
@@ -31,9 +23,9 @@ internal class Program
         services.AddSingleton<IFileNameProvider, FileNameProvider>();
         try
         {
-            Executor? executerService =services.AddSingleton<Executor, Executor>()
+            Runner? executerService =services.AddSingleton<Runner>()
                 .BuildServiceProvider()
-                .GetService<Executor>();
+                .GetService<Runner>();
             if (executerService != null) 
                 executerService.Execute(f, p ,v);
             else

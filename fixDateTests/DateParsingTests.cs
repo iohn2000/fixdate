@@ -5,6 +5,7 @@ using System.Text.RegularExpressions;
 using FakeItEasy;
 using fixDate;
 using fixDate.interfaces;
+using fixDate.Models;
 using NUnit.Framework;
 
 namespace fixDateTests;

@@ -1,15 +1,16 @@
 ﻿using fixDate.interfaces;
+using fixDate.Models;
 
 namespace fixDate;
 
 /// <summary>
 /// class a starter class
 /// </summary>
-public class Executor
+public class Runner
 {
     private readonly IFixDates _fixDates;
 
-    public Executor(IFixDates fixDates)
+    public Runner(IFixDates fixDates)
     {
         _fixDates = fixDates;
     }
