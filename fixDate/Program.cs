@@ -23,6 +23,7 @@ internal class Program
         services.AddSingleton<IFileNameProvider, FileNameProvider>();
         try
         {
+            Console.ReadLine();
             Runner? executerService =services.AddSingleton<Runner>()
                 .BuildServiceProvider()
                 .GetService<Runner>();

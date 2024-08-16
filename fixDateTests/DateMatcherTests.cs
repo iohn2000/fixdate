@@ -30,7 +30,7 @@ public class DateMatcherTests
     {
         IDateMatch sut = new DateMatcher();
         var result = sut.TryCleaningUpFilename(orig);
-        Assert.AreEqual(clean,result);
+        Assert.Equals (clean,result);
     }
         
     [Test]
@@ -43,8 +43,8 @@ public class DateMatcherTests
         IDateMatch sut = new DateMatcher();
         TheMatchResult findDateFormatMatch = sut.FindDateFormatMatch(fileName, new SortedList<int, string> {{ 1, pattern}});
 
-        Assert.AreEqual(extractedDate, findDateFormatMatch.TheValue);
-        Assert.AreEqual(isADate, findDateFormatMatch.Success);
+        Assert.Equals(extractedDate, findDateFormatMatch.TheValue);
+        Assert.Equals(isADate, findDateFormatMatch.Success);
             
     }
 
@@ -59,8 +59,8 @@ public class DateMatcherTests
     {
         IDateMatch sut = new DateMatcher();
         TheMatchResult findDateFormatMatch = sut.FindDateFormatMatch(fileName, new SortedList<int, string> {{ 1, pattern}});
-        Assert.AreEqual(isADate, findDateFormatMatch.Success);
-        Assert.AreEqual(extractedDate, findDateFormatMatch.TheValue);
+        Assert.Equals(isADate, findDateFormatMatch.Success);
+        Assert.Equals(extractedDate, findDateFormatMatch.TheValue);
     }
 
     [Test]
@@ -79,7 +79,7 @@ public class DateMatcherTests
         IDateMatch sut = new DateMatcher();
 
         TheMatchResult findDateFormatMatch = sut.FindDateFormatMatch(fileName, cfgReader.GetDateTimeMatchingPatterns());
-        Assert.IsTrue(findDateFormatMatch.Success);
-        Assert.AreEqual(result, findDateFormatMatch.TheValue);
+        Assert.That(findDateFormatMatch.Success==true);
+        Assert.Equals(result, findDateFormatMatch.TheValue);
     }
 }

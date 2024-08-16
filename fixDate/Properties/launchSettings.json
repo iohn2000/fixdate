@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "fixDate": {
+      "commandName": "Project",
+      "commandLineArgs": "-p "
+    }
+  }
+}

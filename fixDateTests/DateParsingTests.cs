@@ -6,6 +6,7 @@ using FakeItEasy;
 using fixDate;
 using fixDate.interfaces;
 using fixDate.Models;
+using FluentAssertions;
 using NUnit.Framework;
 
 namespace fixDateTests;
@@ -35,8 +36,9 @@ public class DateParsingTests
         DateTime fdate;
         sut.TryParseDateExact(result, cfgReader.GetDateTimeParsingFormats().Values.ToList(), out fdate);
         
-        Assert.AreEqual(s,fdate.Second);
-        Assert.AreEqual(m,fdate.Minute);
-        Assert.AreEqual(h,fdate.Hour);
+        fdate.Second.Should().Be(s);
+        
+        Assert.Equals(m,fdate.Minute);
+        Assert.Equals(h,fdate.Hour);
     }
 }
