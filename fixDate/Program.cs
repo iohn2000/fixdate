@@ -20,7 +20,7 @@ internal class Program
         services.AddSingleton<IConfigurationReader, ConfigurationReaderHardCoded>();
         services.AddSingleton<IDateMatch, DateMatcher>();
         services.AddSingleton<IDateParsing, DateParsing>();
-        services.AddSingleton<IFileNameProvider, FileNameProvider>();
+        services.AddSingleton<IFileNameProvider, FileNameProviderShell>();
         try
         {
             Console.ReadLine();
