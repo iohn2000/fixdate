@@ -37,8 +37,7 @@ public class DateParsingTests
         sut.TryParseDateExact(result, cfgReader.GetDateTimeParsingFormats().Values.ToList(), out fdate);
         
         fdate.Second.Should().Be(s);
-        
-        Assert.Equals(m,fdate.Minute);
-        Assert.Equals(h,fdate.Hour);
+        fdate.Minute.Should().Be(m);
+        fdate.Hour.Should().Be(h);
     }
 }

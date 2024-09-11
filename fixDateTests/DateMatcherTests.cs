@@ -5,6 +5,7 @@ using FakeItEasy;
 using fixDate;
 using fixDate.interfaces;
 using fixDate.Models;
+using FluentAssertions;
 using NUnit.Framework;
 
 namespace fixDateTests;
@@ -30,7 +31,7 @@ public class DateMatcherTests
     {
         IDateMatch sut = new DateMatcher();
         var result = sut.TryCleaningUpFilename(orig);
-        Assert.Equals (clean,result);
+        result.Should().Be(clean);
     }
         
     [Test]
@@ -43,9 +44,8 @@ public class DateMatcherTests
         IDateMatch sut = new DateMatcher();
         TheMatchResult findDateFormatMatch = sut.FindDateFormatMatch(fileName, new SortedList<int, string> {{ 1, pattern}});
 
-        Assert.Equals(extractedDate, findDateFormatMatch.TheValue);
-        Assert.Equals(isADate, findDateFormatMatch.Success);
-            
+        findDateFormatMatch.TheValue.Should().Be(extractedDate);
+        findDateFormatMatch.Success.Should().Be(isADate);
     }
 
     private const string dateYYYYmmddAppendix = @"\d{4}-\d{1,2}-\d{1,2} \d{1,2}[\.]\d{1,2}";
@@ -59,8 +59,10 @@ public class DateMatcherTests
     {
         IDateMatch sut = new DateMatcher();
         TheMatchResult findDateFormatMatch = sut.FindDateFormatMatch(fileName, new SortedList<int, string> {{ 1, pattern}});
-        Assert.Equals(isADate, findDateFormatMatch.Success);
-        Assert.Equals(extractedDate, findDateFormatMatch.TheValue);
+
+        findDateFormatMatch.TheValue.Should().Be(extractedDate);
+        findDateFormatMatch.Success.Should().Be(isADate);
+
     }
 
     [Test]
@@ -79,7 +81,7 @@ public class DateMatcherTests
         IDateMatch sut = new DateMatcher();
 
         TheMatchResult findDateFormatMatch = sut.FindDateFormatMatch(fileName, cfgReader.GetDateTimeMatchingPatterns());
-        Assert.That(findDateFormatMatch.Success==true);
-        Assert.Equals(result, findDateFormatMatch.TheValue);
+        findDateFormatMatch.Success.Should().BeTrue();
+        findDateFormatMatch.TheValue.Should().Be(result);
     }
 }
