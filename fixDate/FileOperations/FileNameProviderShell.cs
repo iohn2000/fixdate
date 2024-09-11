@@ -1,13 +1,16 @@
-﻿using fixDate.interfaces;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace fixDate
+namespace fixDate.FileOperations
 {
+    /// <summary>
+    /// use operating system shell commands to read file names
+    /// seems necessary when onedrive and cryptomator are used together
+    /// </summary>
     public class FileNameProviderShell : IFileNameProvider
     {
         public List<string> GetFileNames(string basePath)
@@ -48,7 +51,7 @@ namespace fixDate
                 Console.WriteLine(error);
             }
 
-            return output.Where(w=>!string.IsNullOrWhiteSpace(w)).ToList();
+            return output.Where(w => !string.IsNullOrWhiteSpace(w)).ToList();
         }
     }
 }

@@ -1,4 +1,4 @@
-﻿namespace fixDate.interfaces
+﻿namespace fixDate.FileOperations
 {
     public interface IFileNameProvider
     {

@@ -1,8 +1,6 @@
-﻿using fixDate.interfaces;
-
-namespace fixDate
+﻿namespace fixDate.FileOperations
 {
-    public class FileNameProvider : IFileNameProvider
+    public class FileNameProviderDotNet : IFileNameProvider
     {
         public List<string> GetFileNames(string basePath)
         {
@@ -13,8 +11,8 @@ namespace fixDate
             /*try
             {*/
             EnumerationOptions enumOptions = new EnumerationOptions { MatchCasing = MatchCasing.CaseInsensitive, RecurseSubdirectories = true };
-             
-                var files = Directory.GetFiles(Path.Combine(basePath, ""), "*.*", enumOptions).ToList();
+
+            var files = Directory.GetFiles(Path.Combine(basePath, ""), "*.*", enumOptions).ToList();
             /*
                // Variation of GetFiles, also not working
                DirectoryInfo dir = new DirectoryInfo(basePath);  

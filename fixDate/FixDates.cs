@@ -1,11 +1,12 @@
-﻿using fixDate.interfaces;
+﻿using fixDate.FileOperations;
+using fixDate.interfaces;
 using fixDate.Models;
 using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace fixDate;
 
 public class FixDates(IFileListFilter fileListFilter, IConfigurationReader cfgReader, IDateMatch dateMatcher,
-    IDateParsing dateParser) : IFixDates
+    IDateParsing dateParser, IModifiedDateChanger dateChanger) : IFixDates
 {
     public List<TheReportLine> LosGehts(bool forceUpdate, string relativeStartPath = @".\")
     {
@@ -40,7 +41,7 @@ public class FixDates(IFileListFilter fileListFilter, IConfigurationReader cfgRe
         bool forceUpdate, string f, SortedList<int,string> dateFormats, SortedList<int, string> parseFormats, List<TheReportLine> theReport)
     {
         bool success = false;
-        string n = Path.GetFileNameWithoutExtension(f);
+        string n = dateChanger.GetFileNameWithoutExtension(f);
         TheMatchResult theMatch = dateMatcher.FindDateFormatMatch(n, dateFormats);
         if (theMatch.Success)
         {
@@ -48,11 +49,11 @@ public class FixDates(IFileListFilter fileListFilter, IConfigurationReader cfgRe
             if (parseWentOk)
             {
                 success = true;
-                FileInfo fi = new FileInfo(f);
-                if (fi.LastWriteTime != fdate || forceUpdate)
+                
+                var lastWriteTime  = dateChanger.GetModifiedDate(f);
+                if (lastWriteTime != fdate || forceUpdate)
                 {
-                    fi.LastWriteTime = fdate;
-                    fi.Refresh();
+                    dateChanger.SetModifiedDate(f,fdate);
                     theReport.Add(new TheReportLine
                     {
                         FileStatus = FStatus.Changed,

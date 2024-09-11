@@ -1,20 +1,12 @@
-﻿using fixDate.interfaces;
+﻿using fixDate.FileOperations;
+using fixDate.interfaces;
 using fixDate.Models;
 using System.Text.RegularExpressions;
 
 namespace fixDate;
 
-public class FileListFilter : IFileListFilter
+public class FileListFilter(IFileNameProvider fileNameProvider, IConfigurationReader configReader) : IFileListFilter
 {
-    private readonly IFileNameProvider fileNameProvider;
-    private readonly IConfigurationReader configReader;
-
-    public FileListFilter(IFileNameProvider fileNameProvider, IConfigurationReader configReader)
-    {
-        this.fileNameProvider = fileNameProvider;
-        this.configReader = configReader;
-    }
-
     public List<FileNameItem> GetAllFileNames(string basePath)
     {
         var regex = configReader.GetExcludedFoldersPatterns()

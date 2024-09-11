@@ -7,6 +7,7 @@ using fixDate;
 using fixDate.interfaces;
 using NUnit.Framework;
 using FluentAssertions;
+using fixDate.FileOperations;
 
 namespace fixDateTests
 {
