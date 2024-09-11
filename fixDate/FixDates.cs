@@ -32,6 +32,7 @@ public class FixDates(IFileListFilter fileListFilter, IConfigurationReader cfgRe
                     FileStatus = FStatus.Excluded, LogLine = $"{FStatus.Excluded}: {theFileItem.FileName} is excluded."
                 });
             }
+            Console.Write("*");
         }
 
         return theReport;

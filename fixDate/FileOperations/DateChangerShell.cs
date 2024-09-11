@@ -27,7 +27,7 @@ namespace fixDate.FileOperations
         public bool SetModifiedDate(string fname, DateTime fdate)
         {
             // Define the shell command you want to execute
-            string command = $"powershell -command \"(Get-Item '{fname}').LastWriteTime=('{fdate.ToString("dd/MM/yyyy 12:00")}')\""; 
+            string command = $"powershell -command \"(Get-Item '{fname}').LastWriteTime=('{fdate.ToString("yyyy-MM-dd 12:00")}')\""; 
 
             // Create a new process
             Process process = new Process();
