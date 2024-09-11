@@ -1,7 +1,4 @@
 using System.Collections.Generic;
-using System.Text.RegularExpressions;
-using System.Xml.XPath;
-using FakeItEasy;
 using fixDate;
 using fixDate.interfaces;
 using fixDate.Models;

@@ -21,8 +21,7 @@ internal class Program
         services.AddSingleton<IConfigurationReader, ConfigurationReaderHardCoded>();
         services.AddSingleton<IDateMatch, DateMatcher>();
         services.AddSingleton<IDateParsing, DateParsing>();
-        services.AddSingleton<IFileNameProvider, FileNameProviderShell>();
-        services.AddSingleton<IModifiedDateChanger, DateChangerShell>();
+        services.AddSingleton<IFileManager, FileManagerShell>();
         try
         {
             Console.ReadLine();

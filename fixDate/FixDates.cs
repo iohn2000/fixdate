@@ -1,12 +1,11 @@
 ﻿using fixDate.FileOperations;
 using fixDate.interfaces;
 using fixDate.Models;
-using static System.Runtime.InteropServices.JavaScript.JSType;
 
 namespace fixDate;
 
 public class FixDates(IFileListFilter fileListFilter, IConfigurationReader cfgReader, IDateMatch dateMatcher,
-    IDateParsing dateParser, IModifiedDateChanger dateChanger) : IFixDates
+    IDateParsing dateParser, IFileManager dateChanger) : IFixDates
 {
     public List<TheReportLine> LosGehts(bool forceUpdate, string relativeStartPath = @".\")
     {

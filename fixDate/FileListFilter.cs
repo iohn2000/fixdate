@@ -5,7 +5,7 @@ using System.Text.RegularExpressions;
 
 namespace fixDate;
 
-public class FileListFilter(IFileNameProvider fileNameProvider, IConfigurationReader configReader) : IFileListFilter
+public class FileListFilter(IFileManager fileNameProvider, IConfigurationReader configReader) : IFileListFilter
 {
     public List<FileNameItem> GetAllFileNames(string basePath)
     {
