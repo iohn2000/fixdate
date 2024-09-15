@@ -30,4 +30,6 @@ ENTRYPOINT ["dotnet", "fixDate.dll"]
 # run in smaller dotnet images with runtime only
 # docker build -t fixdatedocker .
 # docker run -it --rm fixdatedocker -p . -v 3
+# docker save -o path imageName
+# docker load -i path
 #
