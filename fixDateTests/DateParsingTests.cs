@@ -1,11 +1,9 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text.RegularExpressions;
-using FakeItEasy;
 using fixDate;
 using fixDate.interfaces;
 using fixDate.Models;
+using FluentAssertions;
 using NUnit.Framework;
 
 namespace fixDateTests;
@@ -34,9 +32,9 @@ public class DateParsingTests
         TheMatchResult result = new TheMatchResult {Success = true, TheValue = extractedDate};
         DateTime fdate;
         sut.TryParseDateExact(result, cfgReader.GetDateTimeParsingFormats().Values.ToList(), out fdate);
-        
-        Assert.AreEqual(s,fdate.Second);
-        Assert.AreEqual(m,fdate.Minute);
-        Assert.AreEqual(h,fdate.Hour);
+
+        fdate.Second.Should().Be(s);
+        fdate.Minute.Should().Be(m);
+        fdate.Hour.Should().Be(h);
     }
 }
