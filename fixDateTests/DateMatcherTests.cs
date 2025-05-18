@@ -1,10 +1,8 @@
 using System.Collections.Generic;
-using System.Text.RegularExpressions;
-using System.Xml.XPath;
-using FakeItEasy;
 using fixDate;
 using fixDate.interfaces;
 using fixDate.Models;
+using FluentAssertions;
 using NUnit.Framework;
 
 namespace fixDateTests;
@@ -30,7 +28,7 @@ public class DateMatcherTests
     {
         IDateMatch sut = new DateMatcher();
         var result = sut.TryCleaningUpFilename(orig);
-        Assert.AreEqual(clean,result);
+        result.Should().Be(clean);
     }
         
     [Test]
@@ -43,9 +41,9 @@ public class DateMatcherTests
         IDateMatch sut = new DateMatcher();
         TheMatchResult findDateFormatMatch = sut.FindDateFormatMatch(fileName, new SortedList<int, string> {{ 1, pattern}});
 
-        Assert.AreEqual(extractedDate, findDateFormatMatch.TheValue);
-        Assert.AreEqual(isADate, findDateFormatMatch.Success);
-            
+        findDateFormatMatch.TheValue.Should().Be(extractedDate);
+        findDateFormatMatch.Success.Should().Be(isADate);
+
     }
 
     private const string dateYYYYmmddAppendix = @"\d{4}-\d{1,2}-\d{1,2} \d{1,2}[\.]\d{1,2}";
@@ -59,8 +57,8 @@ public class DateMatcherTests
     {
         IDateMatch sut = new DateMatcher();
         TheMatchResult findDateFormatMatch = sut.FindDateFormatMatch(fileName, new SortedList<int, string> {{ 1, pattern}});
-        Assert.AreEqual(isADate, findDateFormatMatch.Success);
-        Assert.AreEqual(extractedDate, findDateFormatMatch.TheValue);
+        findDateFormatMatch.Success.Should().Be(isADate);
+        findDateFormatMatch.TheValue.Should().Be(extractedDate);
     }
 
     [Test]
@@ -79,7 +77,7 @@ public class DateMatcherTests
         IDateMatch sut = new DateMatcher();
 
         TheMatchResult findDateFormatMatch = sut.FindDateFormatMatch(fileName, cfgReader.GetDateTimeMatchingPatterns());
-        Assert.IsTrue(findDateFormatMatch.Success);
-        Assert.AreEqual(result, findDateFormatMatch.TheValue);
+        Assert.That(findDateFormatMatch.Success);
+        Assert.That(findDateFormatMatch.TheValue.Equals(result));
     }
 }
